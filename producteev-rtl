@@ -1,0 +1,95 @@
+/* Producteev.com RTL Interface for Stylish by Sohail Lajevardi, V-1.4 */
+.navbar .navbar-inner .header .navbar-search .search-query,
+form.add-task #add-task-input,
+#add-subtask, .add-note textarea, #project-search-field {
+	direction: rtl;
+}
+
+#editTaskTitle, .filled-label-item {
+	font-family: B Yekan !important;
+}
+
+#task-details-container div.title {
+	direction: rtl;
+    font-family: B Yekan;
+    font-weight: normal;
+}
+
+.td-content .title-header, .td-content .title-header.editing {
+	font-size: 13px;
+	font-family: B Yekan;
+}
+
+ tr.task {
+ 	direction: rtl;
+ 	font-family: B Yekan;
+}
+
+.popover .project-picker .popover-content ul, .activities-list .activities li .activity-title,
+.modal form.add-project .name input, .modal form.add-network .name input, .modal form.add-label .name input, .modal form.add-project input[type=text], .modal form.add-network input[type=text], .modal form.add-label input[type=text], .modal form.delete-network input[type=text], .modal form.delete-account input[type=password] {
+ 	direction: rtl;
+ 	font-family: B Yekan;
+	text-align: right;
+}
+
+form.add-task i.nlp-help {
+	right: auto;
+	left: 30px;
+}
+
+#sidebar .workspace-sidebar .sidebar-box .list ul.nav-list {
+	direction: rtl;
+	font-family: B Yekan;
+}
+
+#sidebar .workspace-sidebar .sidebar-box .list ul.nav-list li a.title {
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.td-notes li.note .message, .td-content .td-notes textarea {
+	text-align: right;
+	direction: rtl;
+	font-family: B Yekan;
+	font-size: 13px;
+}
+
+.navbar .navbar-inner .nav li a.navbar-item, .filled-label-user .name, .pane-attribute-section.editing input,
+.task-activities-list .activities li.task-commented .activity-title span, .task-details-header .dropdown .dropdown-project .titleو form.add-task #add-task-input, .popover .info.sidebar .popover-content .body table tr td.user-info,
+.popover .info .popover-content a, .popover .info.sidebar .popover-content .header span, .task-details-header .dropdown .dropdown-project .title {
+	font-family: B Yekan;
+}
+
+.popover .info.sidebar .popover-content .header h5, .tasks-list .filters .list-title div.tasks-list-title.ready, #add-task-input {
+	font-family: B Yekan;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.typeahead-frame input {
+	text-align: right;
+	font-family: B Yekan;
+	font-weight: normal;
+	direction: rtl;
+	font-size: 13px;
+}
+
+.dropdown-menu li>a:hover, .dropdown-menu li>a:focus, .dropdown-submenu:hover>a, .dropdown-menu .active>a, .dropdown-menu .active>a:hover {
+	font-family: B Yekan;
+}
+
+.typeahead {
+	left: auto;
+	right: 0;
+	text-align: right;
+}
+
+.popover .notifications .popover-content li a .info {
+	text-align: right;
+	font-family: B Yekan;
+}
+
+.notifications .popover-content li a.mark-as-unread {
+	left: 19px;
+	right: auto;
+}
