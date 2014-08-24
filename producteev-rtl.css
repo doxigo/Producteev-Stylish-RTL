@@ -56,7 +56,7 @@ form.add-task i.nlp-help {
 
 .navbar .navbar-inner .nav li a.navbar-item, .filled-label-user .name, .pane-attribute-section.editing input,
 .task-activities-list .activities li.task-commented .activity-title span, .task-details-header .dropdown .dropdown-project .titleو form.add-task #add-task-input, .popover .info.sidebar .popover-content .body table tr td.user-info,
-.popover .info .popover-content a, .popover .info.sidebar .popover-content .header span, .task-details-header .dropdown .dropdown-project .title {
+.popover .info .popover-content a, .popover .info.sidebar .popover-content .header span, .task-details-header .dropdown .dropdown-project .title, .task-activities-list .activities>li a.user {
 	font-family: B Yekan;
 }
 
@@ -84,7 +84,7 @@ form.add-task i.nlp-help {
 	text-align: right;
 }
 
-.popover .notifications .popover-content li a .info {
+.popover .notifications .popover-content li a .info, .activities-list .activities li .comment {
 	text-align: right;
 	font-family: B Yekan;
 }
@@ -92,4 +92,14 @@ form.add-task i.nlp-help {
 .notifications .popover-content li a.mark-as-unread {
 	left: 19px;
 	right: auto;
+}
+
+.media>.pull-left {
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.activities-list .activities li .timestamp {
+	text-align: right;
 }
