@@ -84,9 +84,14 @@ form.add-task i.nlp-help {
 	text-align: right;
 }
 
-.popover .notifications .popover-content li a .info, .activities-list .activities li .comment {
+.popover .notifications .popover-content li a .info {
 	text-align: right;
 	font-family: B Yekan;
+}
+
+.activities-list .activities li .comment {
+	font-family: B Yekan;
+	direction: rtl;
 }
 
 .notifications .popover-content li a.mark-as-unread {
