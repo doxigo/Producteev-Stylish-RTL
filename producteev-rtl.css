@@ -6,7 +6,7 @@ form.add-task #add-task-input,
 }
 
 #editTaskTitle, .filled-label-item {
-	font-family: B Yekan !important;
+	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif !important;
 }
 
 #task-details-container div.title {
@@ -56,7 +56,7 @@ form.add-task i.nlp-help {
 
 .navbar .navbar-inner .nav li a.navbar-item, .filled-label-user .name, .pane-attribute-section.editing input,
 .task-activities-list .activities li.task-commented .activity-title span, .task-details-header .dropdown .dropdown-project .titleو form.add-task #add-task-input, .popover .info.sidebar .popover-content .body table tr td.user-info,
-.popover .info .popover-content a, .popover .info.sidebar .popover-content .header span, .task-details-header .dropdown .dropdown-project .title, .task-activities-list .activities>li a.user {
+.popover .info .popover-content a, .popover .info.sidebar .popover-content .header span, .task-details-header .dropdown .dropdown-project .title, .task-activities-list .activities>li a.user, .dropdown-menu>li>a {
 	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
