@@ -1,4 +1,4 @@
-/* Producteev.com RTL Interface for Stylish by Sohail Lajevardi, V-1.4 */
+/* Producteev.com RTL Interface for Stylish by Sohail Lajevardi, V-1.5 */
 .navbar .navbar-inner .header .navbar-search .search-query,
 form.add-task #add-task-input,
 #add-subtask, .add-note textarea, #project-search-field {
@@ -56,7 +56,8 @@ form.add-task i.nlp-help {
 
 .navbar .navbar-inner .nav li a.navbar-item, .filled-label-user .name, .pane-attribute-section.editing input,
 .task-activities-list .activities li.task-commented .activity-title span, .task-details-header .dropdown .dropdown-project .titleو form.add-task #add-task-input, .popover .info.sidebar .popover-content .body table tr td.user-info,
-.popover .info .popover-content a, .popover .info.sidebar .popover-content .header span, .task-details-header .dropdown .dropdown-project .title, .task-activities-list .activities>li a.user, .dropdown-menu>li>a {
+.popover .info .popover-content a, .popover .info.sidebar .popover-content .header span, .task-details-header .dropdown .dropdown-project .title, .task-activities-list .activities>li a.user, .dropdown-menu>li>a,
+.td-content .visibility, .createdby {
 	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
