@@ -6,29 +6,29 @@ form.add-task #add-task-input,
 }
 
 #editTaskTitle, .filled-label-item {
-	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif !important;
 }
 
 #task-details-container div.title {
 	direction: rtl;
-    font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
     font-weight: normal;
 }
 
 .td-content .title-header, .td-content .title-header.editing {
 	font-size: 13px;
-	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
 }
 
  tr.task {
  	direction: rtl;
- 	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+ 	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
 }
 
 .popover .project-picker .popover-content ul, .activities-list .activities li .activity-title,
 .modal form.add-project .name input, .modal form.add-network .name input, .modal form.add-label .name input, .modal form.add-project input[type=text], .modal form.add-network input[type=text], .modal form.add-label input[type=text], .modal form.delete-network input[type=text], .modal form.delete-account input[type=password] {
  	direction: rtl;
- 	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+ 	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
 	text-align: right;
 }
 
@@ -39,7 +39,7 @@ form.add-task i.nlp-help {
 
 #sidebar .workspace-sidebar .sidebar-box .list ul.nav-list {
 	direction: rtl;
-	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
 }
 
 #sidebar .workspace-sidebar .sidebar-box .list ul.nav-list li a.title {
@@ -50,7 +50,7 @@ form.add-task i.nlp-help {
 .td-notes li.note .message, .td-content .td-notes textarea {
 	text-align: right;
 	direction: rtl;
-	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
 	font-size: 13px;
 }
 
@@ -58,25 +58,25 @@ form.add-task i.nlp-help {
 .task-activities-list .activities li.task-commented .activity-title span, .task-details-header .dropdown .dropdown-project .titleو form.add-task #add-task-input, .popover .info.sidebar .popover-content .body table tr td.user-info,
 .popover .info .popover-content a, .popover .info.sidebar .popover-content .header span, .task-details-header .dropdown .dropdown-project .title, .task-activities-list .activities>li a.user, .dropdown-menu>li>a,
 .td-content .visibility, .createdby {
-	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
 }
 
 .popover .info.sidebar .popover-content .header h5, .tasks-list .filters .list-title div.tasks-list-title.ready, #add-task-input {
-	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 13px;
 }
 
 .typeahead-frame input {
 	text-align: right;
-	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	direction: rtl;
 	font-size: 13px;
 }
 
 .dropdown-menu li>a:hover, .dropdown-menu li>a:focus, .dropdown-submenu:hover>a, .dropdown-menu .active>a, .dropdown-menu .active>a:hover {
-	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
 }
 
 .typeahead {
@@ -85,13 +85,13 @@ form.add-task i.nlp-help {
 	text-align: right;
 }
 
-.popover .notifications .popover-content li a .info {
+.popover .notifications .popover-content li a .info, .td-content ul.subtasks-list li, .td-content ul.subtasks-list li .edit {
 	text-align: right;
-	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
 }
 
 .activities-list .activities li .comment {
-	font-family: B Yekan, Iranian Sans, tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
 	direction: rtl;
 }
 
@@ -106,6 +106,35 @@ form.add-task i.nlp-help {
 	margin-left: 10px;
 }
 
-.activities-list .activities li .timestamp {
+.activities-list .activities li .timestamp, .activities-list .activities li .comment .media-body {
 	text-align: right;
+}
+
+form.add-task i.nlp-help {
+	width: 13px;
+}
+
+form.add-task #add-task-input {
+	padding: 8px 20px 8px 48px;
+}
+
+.task-activities-list .activities>li .activity-title, .task-activities-list .activities>li .activity-detail .text, .td-content ul.subtasks-list li .title {
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+	direction: rtl;
+text-align: right;
+}
+
+.td-notes li.note a.edit, .td-notes li.note .timestamp {
+	float: left !important;
+}
+
+.tasks-list-header .list-title, .activities-list-header {
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+	direction: rtl;
+}
+
+.activities-list .activities li .activity-title a.task {
+	display: block;
 }
